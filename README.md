@@ -39,37 +39,32 @@ This repository documents two hands-on password cracking labs completed as part 
 - Why password length and complexity directly affect crack time
 - The real-world risk of weak/reused passwords (breach statistics referenced in the course material)
 
-## 📂 Repository Structure
+## 📷 Screenshots
+---
+Extracting the lock PDF Hashes using the Networkwalks tool.
+---
 
-```
-password-cracking-labs/
-├── docs/
-│   ├── Module1_Password_Cracking_with_JTR.pdf
-│   └── Module2_Password_Cracking_with_NW_Tools.pdf
-├── screenshots/
-│   ├── 01_johnny_cracked_hash.png
-│   ├── 02_hash_calculator_output.png
-│   ├── 03_onlinehashcrack_extractor.png
-│   └── 04_pdf_password_prompt.png
-├── LICENSE
-└── README.md
-```
+<img width="592" height="435" alt="Screenshot 2026-11-18 170059" src="https://github.com/user-attachments/assets/ffe3ce8c-9ad8-4612-abcd-523c70c9dbde" />
 
-## 🛠️ Tools Referenced
-
-- [John the Ripper](https://www.openwall.com/john/) — password cracking tool
-- [Johnny](https://openwall.info/wiki/john/johnny) — GUI for John the Ripper
-- [Online Hash Crack — PDF Hash Extractor](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php)
-- Networkwalks Hash Calculator & Password Cracker (training tools)
-
-## 📌 Note on Flags/Answers
-
-Lab completion flags and the specific cracked password used in these training exercises have intentionally **not** been published in this README out of respect for other students still working through the same coursework. Screenshots and documentation here focus on methodology, not answers.
-
-## 📜 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. Course material PDFs remain the property of Networkwalks and are included here for personal learning-record purposes only.
+---
+## We can also use this web tool to get the Lock PDF hashes 
+---
+<img width="593" height="419" alt="Screenshot 2026-11-18 170011" src="https://github.com/user-attachments/assets/28fbf093-bec3-419f-a0cd-432d73848e12" />
 
 ---
 
-*Part of a Cybersecurity & Ethical Hacking training journey — Week 3 Project Modules.*
+## After getting the hashes put it into the txt file and upload it into the JTR jhon the ripper and start new attack.
+---
+<img width="728" height="366" alt="Screenshot 2026-11-18 170158" src="https://github.com/user-attachments/assets/3b394a5e-9f5a-4a20-949f-ccb5b3568f0e" />
+
+--- 
+##  And put it into the password section 
+---
+<img width="553" height="347" alt="Screenshot 2026-11-18 165504" src="https://github.com/user-attachments/assets/c17ffd49-c65c-430b-98ff-bef836583995" />
+
+---
+## and finally the flag is captured 
+---
+<img width="447" height="420" alt="Screenshot 2026-11-17 213413" src="https://github.com/user-attachments/assets/9321fa7e-d1cf-4c13-bd83-06e6a72696fc" />
+
+---
